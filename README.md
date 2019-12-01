@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Material recognition project
 
-You can use the [editor on GitHub](https://github.com/AkashPushkar/material_recognition/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is project for classifying construction materials based on the data collected from a construction site. The algorithm can be divided into follwing steps:
+ * Segmenting a given image into patches
+ * Texture features are extracted from these patches
+ * Based on the feature extracted, classification is performed
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AkashPushkar/material_recognition/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The pictorial representation representation of the algorithm is shown in the figure below:
+![flowchart](./docs/methodology.png)
