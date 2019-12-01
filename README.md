@@ -6,4 +6,12 @@ This is project for classifying construction materials based on the data collect
  * Based on the feature extracted, classification is performed
 
 The pictorial representation representation of the algorithm is shown in the figure below:
+
 ![flowchart](./docs/methodology.png)
+
+## Result
+
+Below is example result produced by the model trained 
+(left image= input, right image= output)
+
+![result](./docs/result.png)
